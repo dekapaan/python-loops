@@ -8,6 +8,7 @@ for x in range(100):
         print("Fizz")
     else:
         print(x + 1)
+print("")
 
 # Task1
 import random
@@ -29,10 +30,10 @@ else:
 # Task2
 n = 5
 for x in range(n):
-    for y in range(x):
+    for z in range(x):
         print('* ', end="")
     print('')
 for x in range(n, 0, -1):
-    for y in range(x):
+    for z in range(x):
         print('* ', end='')
     print('')
